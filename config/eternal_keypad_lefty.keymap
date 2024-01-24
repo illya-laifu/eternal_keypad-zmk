@@ -27,7 +27,7 @@
             bindings = <
          &kp RET           &kp N1        &kp N2    &kp N3  &kp N4     &kp N5  &kp N6
          &kp BACKSPACE     &kp Q         &kp W     &kp E   &kp R      &kp T   &kp N7
-&kp ESC  &kp TAB           &kp D         &kp S     &kp A   &kp F      &kp G   &kp N8
+&kp ESC  &kp TAB           &kp A         &kp S     &kp D   &kp F      &kp G   &kp N8
 &tog 1   &kp LSHFT         &kp Z         &kp X     &kp C   &kp V      &kp B   &kp N9
 &kp F15  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LALT          &kp SPACE          &kp NUMBER_0
             >;
