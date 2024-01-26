@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE        0
@@ -35,11 +34,11 @@
 
         arrow_layer {
             bindings = <
-       &none   &none     &trans    &trans     &trans           &out OUT_USB     &out OUT_BLE
-       &trans  &trans    &kp UP    &trans     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
-&none  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-&none  &trans  &trans    &trans    &trans     &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
-&none  &trans  &trans    &trans               &trans                            &trans
+        &none   &none     &trans    &trans     &trans           &trans           &trans
+        &trans  &trans    &kp UP    &trans     &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
+&none   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+&tog 0  &trans  &trans    &trans    &trans     &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
+&none   &trans  &trans    &trans               &trans                            &trans
             >;
         };
 
